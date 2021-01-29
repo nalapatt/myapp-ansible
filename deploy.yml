@@ -6,7 +6,7 @@
   gather_facts: true
   tasks:
     - name: "copy file"
-      copy: src=/home/ubuntu/index.html dest=/var/www/html/index.html
+      copy: src=index.html dest=/var/www/html/index.html
 ~                                                                               
 ~                                                                               
 ~                  
